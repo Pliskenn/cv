@@ -1,0 +1,40 @@
+body
+{
+    width: 800px;
+    margin:auto;
+    margin-top: 30px;
+}
+p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 800px;
+}
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    color: aliceblue;
+    background-color: orange;
+    width: 450px;
+    text-align: center;
+}
+h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-left: 15px;
+}
+aside
+{
+    float : right;
+    margin-left: 10px;
+    width: 350px;
+    border:grey solid 1px;
+    border-radius: 10px;   
+    padding-left: 10px;
+}
+.coordonnees
+{
+    column-count: 2;
+}
