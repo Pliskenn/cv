@@ -1,6 +1,6 @@
 body
 {
-    width: 800px;
+    width: 80%;
     margin:auto;
     margin-top: 30px;
     background-image: url(images/natural.jpg) ;
@@ -13,7 +13,7 @@ p
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-    width: 800px;
+    width: 80%;
 }
 h1
 {
@@ -31,9 +31,14 @@ h2
     font-size: 28px;
     margin-top: -20px;
 }
+h5
+{
+    color:rgb(94, 92, 179);
+}
 main
 {
     background-color: beige;
+    min-width: 450px;
 }
 aside
 {
@@ -47,12 +52,16 @@ aside
     padding-left: 10px;
     background-color:burlywood;
 }
+ul
+{
+    list-style:none;
+}
 .coordonnees
 {
-    column-count: 2;
+    display: flex;
 }
 .adresse
 {
     max-width: 5%;
-    float : right;
+    float : left;
 }
