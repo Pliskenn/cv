@@ -3,7 +3,8 @@ body
     width: 80%;
     margin:auto;
     margin-top: 30px;
-    background-image: url(images/natural.jpg) ;
+    background-color: antiquewhite;
+    max-width: 1080px;
 }
 header
 {
@@ -52,16 +53,27 @@ aside
     padding-left: 10px;
     background-color:burlywood;
 }
-ul
-{
-    list-style:none;
-}
 .coordonnees
 {
     display: flex;
+    justify-content: space-around;
+    text-align: center;
+
 }
-.adresse
+.column1
 {
-    max-width: 5%;
-    float : left;
+    width: 50%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-right: grey solid 1px;
+}
+.column2
+{
+    width: 50%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
