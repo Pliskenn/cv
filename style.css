@@ -13,7 +13,6 @@ p
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-    width: 80%;
 }
 h1
 {
@@ -60,10 +59,8 @@ main
 aside
 {
     float : right;
-    margin-left: 10px;
-    margin-right: 10px;
     margin-top: 10px;
-    width: 350px;
+    width: 30%;
     border:grey solid 1px;
     border-radius: 10px;   
     padding-left: 10px;
@@ -72,6 +69,7 @@ aside
 .primary
 {
     display: inline-block;
+    width: 65%;
 }
 .coordonnees
 {
